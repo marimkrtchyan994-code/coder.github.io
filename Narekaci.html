@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Գրիգոր Նարեկացի</title>
+<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+<style>
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background: #eee8dc;
+}
+h1 { padding: 15px; }
+model-viewer {
+  width: 100%;
+  height: 70vh;
+  background: #eee8dc;
+}
+button {
+  background: #60452f;
+  color: white;
+  border: 0;
+  padding: 16px 24px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+
+<h1>Գրիգոր Նարեկացի</h1>
+<p>Բացահայտեք Գրիգոր Նարեկացուն 3D իրականության մեջ</p>
+
+<model-viewer
+src="grigor_narekatsi_stylized_3d.glb"
+ar
+ar-modes="webxr scene-viewer quick-look"
+camera-controls
+auto-rotate
+shadow-intensity="1">
+
+<button slot="ar-button">
+Տեղադրել հատակին
+</button>
+
+</model-viewer>
+
+</body>
+</html>
